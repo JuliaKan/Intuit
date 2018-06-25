@@ -5,6 +5,9 @@ html {
     background-color: white;
     margin: auto;
     width: 30%;
+    border:solid rgb(177, 177, 177);
+    border-radius:2px;
+    border-width:1px;
 }
 
 body {
@@ -22,8 +25,9 @@ body {
 .linktext{
     display: inline;
     color: grey;
-    font-size: 1em;
+    font-size: 1.5em;
     position: relative;
+    padding-right:3px;
 }
 
 #intuit {
@@ -34,6 +38,7 @@ body {
 table {
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 20px;
 }
 
 
@@ -58,13 +63,16 @@ td {
 
 #lilMessage{
     width: 80%;
-    margin: auto;
+    margin:auto;
+    padding-top:5px;
+    margin: top;
     
 }
 #rememberMe {
     color: black;
     text-align: left;
     margin-left: 20px;
+    
 }
 
 #lockImage{
@@ -84,4 +92,9 @@ a {
     border-radius: 5px;
     height: 4em;
 
+}
+h3{
+    font-size:1.5em;
+    font-weight:normal;
+    margin:0;
 }
