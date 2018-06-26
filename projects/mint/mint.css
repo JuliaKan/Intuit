@@ -28,6 +28,7 @@ body {
     font-size: 1.5em;
     position: relative;
     padding-right:3px;
+    bottom:.2em;
 }
 
 #intuit {
@@ -68,10 +69,13 @@ td {
     margin: top;
     
 }
-#rememberMe {
+#important {
     color: black;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 5px;
+    float:left;
+    
+    
     
 }
 
@@ -84,17 +88,24 @@ a {
 }
 
 #submitButton{
-    background-color: rgb(67, 67, 224);
+    background-color: rgb(78, 78, 255);
     display: block;
     margin: auto;
     width: 90%;
     border: 1px solid rgb(211, 211, 211);
     border-radius: 5px;
     height: 4em;
+    color:white;
+    font-size:1em;
 
 }
 h3{
     font-size:1.5em;
     font-weight:normal;
     margin:0;
+}
+hr{
+    width:80%;
+    border-color:rgb(187, 184, 184);
+    
 }
